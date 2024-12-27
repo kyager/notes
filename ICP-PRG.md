@@ -22,3 +22,9 @@ Ensures an area of code is following a specified business rule
 - Can be the most complex to maintain
 
 A technically savvy product owner can often author many of the acceptance tests themselves.
+
+### Example
+
+| Given that the home is mortgaged, when the balance is updated, then the equity in the home should be calculated |
+| Can retrieve mortgage balance | Can retrieve home value estimate |
+| Can calculate available equity | Will throw exception on negative equity | Can calculate early payoff amount |
