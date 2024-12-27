@@ -1,7 +1,7 @@
-### ICP-PRG
+## ICP-PRG
 
-## Unit Tests
+### Unit Tests
 Exercises a single piece of code
 
-## Component Tests
+### Component Tests
 Validates that multiple areas of code work correctly together
