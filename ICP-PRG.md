@@ -25,8 +25,8 @@ A technically savvy product owner can often author many of the acceptance tests 
 
 ### Example
 
-|Type||Strategy||
-|---|---|---|---|
+|Type|<td colspan=3>Strategy||
+|---|---|---|
 | Acceptance test | <td colspan=3> Given that the home is mortgaged, when the balance is updated, then the equity in the home should be calculated |
 | Component tests | <td colspan=2>Can retrieve mortgage balance | Can retrieve home value estimate |
-| Unit tests | <td colspan=3>Can calculate available equity | Will throw exception on negative equity | Can calculate early payoff amount |
+| Unit tests | Can calculate available equity | Will throw exception on negative equity | Can calculate early payoff amount |
