@@ -25,6 +25,8 @@ A technically savvy product owner can often author many of the acceptance tests 
 
 ### Example
 
-| Given that the home is mortgaged, when the balance is updated, then the equity in the home should be calculated |
-| Can retrieve mortgage balance | Can retrieve home value estimate |
-| Can calculate available equity | Will throw exception on negative equity | Can calculate early payoff amount |
+|||||
+|---|---|---|---|
+| Acceptance test || Given that the home is mortgaged, when the balance is updated, then the equity in the home should be calculated ||
+| Component tests || Can retrieve mortgage balance | Can retrieve home value estimate ||
+| Unit tests | Can calculate available equity | Will throw exception on negative equity | Can calculate early payoff amount |
