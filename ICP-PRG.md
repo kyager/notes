@@ -4,7 +4,7 @@
 Exercises a single piece of code
 
 - Executes quickly
-- Idependant of other unit tests
+- Independant of other unit tests
 - Designed to be used in isolation
 
 A unit tests's small area of focus often makes it simpler to maintain than other types of tests.
