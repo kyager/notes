@@ -1,6 +1,6 @@
-## ICP-PRG
+# ICP-PRG
 
-### Unit Tests
+## Unit Tests
 Exercises a single piece of code
 
 - Executes quickly
@@ -9,13 +9,13 @@ Exercises a single piece of code
 
 A unit tests's small area of focus often makes it simpler to maintain than other types of tests.
 
-### Component Tests
+## Component Tests
 Validates that multiple areas of code work correctly together
 
 - Provides a higher level of confidence about the overall codebase
 - Can be more complex to maintain
 
-### Acceptance Tests
+## Acceptance Tests
 Ensures an area of code is following a specified business rule
 
 - Tends to be readable by non-technical team members
@@ -23,7 +23,7 @@ Ensures an area of code is following a specified business rule
 
 A technically savvy product owner can often author many of the acceptance tests themselves.
 
-### Example
+## Example
 
 | Type | Strategy |     |     |
 | --- | --- | --- | --- |
