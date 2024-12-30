@@ -72,3 +72,13 @@ Removing duplication across your test suite can improve the overall maintainabil
 Start with broken tests (red tests), then write just enough code to get them to pass (green tests), and then refactor the code and tests to clean it up.
 
 ## Testing your tests
+
+- Write your code using test-first development
+- Break your production code and re-run your test suite
+
+### Common indicators of problems with your tests
+
+- Tests do not fail when your production code changes
+- The wrong tests fail in response to code changes
+- Causes of test failures are not revealed by the test names
+- Additional tests fail even though they're unrelated to the changed production code
