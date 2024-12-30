@@ -31,9 +31,9 @@ A technically savvy product owner can often author many of the acceptance tests 
 | Component tests | Can retrieve mortgage balance | Can retrieve home value estimate |     |
 | Unit tests | Can calculate available equity | Will throw exception on negative equity | Can calculate early payoff amount |
 
-# Optimizing Test Coverage
+## Optimizing Test Coverage
 
-## Right BICEP
+### Right BICEP
 
 - Are the results right?
 - Boundary conditions
@@ -42,7 +42,7 @@ A technically savvy product owner can often author many of the acceptance tests 
 - Error conditions
 - Performance boundaries
 
-## CORRECT
+### CORRECT
 
 - Conformance
 - Ordering
@@ -52,7 +52,7 @@ A technically savvy product owner can often author many of the acceptance tests 
 - Cardinality
 - Time
 
-## Sources of duplication in your test suite
+### Sources of duplication in your test suite
 
 - Multiple tests that validate the same case
 - Testing the same area of code with different tests
@@ -60,15 +60,15 @@ A technically savvy product owner can often author many of the acceptance tests 
 
 Removing duplication across your test suite can improve the overall maintainability of your tests.
 
-## Test-first development
+### Test-first development
 
 - Tests are written before production code
 - Only the code necessary to make tests pass is written
 - Tends to results in very lightweight code
 - Can lead to duplicated code
 
-## Red, green, refactor
+### Red, green, refactor
 
 Start with broken tests (red tests), then write just enough code to get them to pass (green tests), and then refactor the code and tests to clean it up.
 
-# Testing your tests
+## Testing your tests
