@@ -44,7 +44,13 @@ Laws -> Strategy Mission / Goals -> Policy -> Procedures
 
 The "right" people doing the "right" things in the "right" way.
 
+### Policy
 
+          /- Functional policies
+         /   /- Procedures
+        /   /- Standards
+Policy ----- Baselines
+            \- Guidelines
 
 ## Risk Management
 
