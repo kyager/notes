@@ -99,27 +99,27 @@ Start with broken tests (red tests), then write just enough code to get them to 
 Some of the most challenging smells may only become noticeable over time
 
 - Fragile tests (do not pass consistently)
--- Referencing third party dependencies from your tests often increase the fragility of those tests
+	- Referencing third party dependencies from your tests often increase the fragility of those tests
 - Indirect tests that fail due to changes to unrelated code
 - Difficulty adding tests to existing code
--- Production code written in a way that isn't easily testable
+	- Production code written in a way that isn't easily testable
 - Slow tests
 
 ## Improving the performance of your test suite
 
 - Removing external dependencies
--- Code performs faster when entirely in memory
--- Reduces fragility and false negatives
--- Prevents unexpected failures, and improves control over your test suite
+	- Code performs faster when entirely in memory
+	- Reduces fragility and false negatives
+	- Prevents unexpected failures, and improves control over your test suite
 
 ### Using test doubles
 
 - Stub
--- Returns hard coded value for the benefit of your test
+	- Returns hard coded value for the benefit of your test
 - Mock
--- Interacts with your production code in predetermined ways
+	- Interacts with your production code in predetermined ways
 - Fake
--- Replaces an entire external dependency
--- When faking an object, it's not necessary to replace the entire object.  Only fake the methods that your code will be interacting with
+	- Replaces an entire external dependency
+	- When faking an object, it's not necessary to replace the entire object.  Only fake the methods that your code will be interacting with
 - Spy
--- Validates how your production code interacts with an object
+	- Validates how your production code interacts with an object
