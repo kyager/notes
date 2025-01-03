@@ -123,3 +123,19 @@ Some of the most challenging smells may only become noticeable over time
 	- When faking an object, it's not necessary to replace the entire object.  Only fake the methods that your code will be interacting with
 - Spy
 	- Validates how your production code interacts with an object
+
+## Creating objects using inversion of control
+
+- Often accomplished using dependency injection
+- Moves creation of the object outside of the consuming code
+- Enables creating the best version of the object at runtime
+
+## Testing code that's inherently hard to test
+
+### Headless apps
+
+Move logic from the UI to areas of the code that can be more readily tested
+
+### Humble objects
+
+Move logic from areas that are difficult to test into areas that are easier to test
