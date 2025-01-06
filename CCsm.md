@@ -44,13 +44,79 @@ Laws -> Strategy Mission / Goals -> Policy -> Procedures
 
 The "right" people doing the "right" things in the "right" way.
 
-### Policy
+### Policies
 
-          /- Functional policies
-         /   /- Procedures
-        /   /- Standards
-Policy ----- Baselines
-            \- Guidelines
+- Provide direction
+    - Mandates what is and is not allowed
+- Signed by management
+    - Example: Acceptable use policy
+
+### Procedures
+
+- Mandates how something should be done
+    - Example: Provisioning new user access
+    - Step-by-step actions
+- Enforce the intent of policy
+
+### Standards
+
+- Mandate required solutions
+    - Equipment purchases
+    - Compliance with good practices
+        - ISO/IEC 27001 compliance
+
+### Baselines
+
+Mandate minimum acceptable levels of action
+
+- Equipment configuration
+- Minimum password length
+
+### Guidelines
+
+Recommendations not mandatory
+
+- How to select a good password
+
+### Key points
+
+A policy is of no value if it is not supported by instructions of what to do and how to do it.
+
+The security policy demonstrates management's commitment to the information security program.
+
+### The information security triad
+
+#### CIA
+
+Used to define a complex term like "security" in a menaningful way.
+
+- Confidentiality
+    - Protecting information from improper disclosure
+        - Privacy
+            - Employee and customer data
+        - Secrecy
+            - Trade secrets
+            - Research
+            - Marketing plans
+- Integrity
+    - Preserving accuracy and data processing
+    - Propection from improper modification
+        - Unathorized users
+        - Users performing unauthorized functions
+        - Authorized entities
+            - Ensuring that only authorized entities can access or modify data
+                - Authentication
+                    - Examined in domain three: access controls
+                    - Multi-factor authentication (MFA)
+                    - Do not trust a single authentication technique
+- Availability
+    - Ensuring that systems and data are accesible when required
+    - Protection from destruction
+        - Backups
+    - Loss of access
+        - DDoS attacks
+        - Cut cables / equipment failure
+        - Redundancy
 
 ## Risk Management
 
