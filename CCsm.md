@@ -121,7 +121,7 @@ Used to define a complex term like "security" in a menaningful way.
 #### Non-repudiation
 
 > Protection against an individual who falsely denies having performed a certain action and provides the capability to dtermine whether an individual took a certain action, such as creating information, sending a message, approving information, or receing a message.
->> -- <cite>NIST SP800-53 r5</cite>
+>> <cite>NIST SP800-53 r5</cite>
 
 ## Risk Management
 
