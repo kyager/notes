@@ -125,7 +125,45 @@ Used to define a complex term like "security" in a menaningful way.
 
 ## Risk Management
 
+Risk is defined as the probability of an event and it's consequence.
 
+> Information security risk is the potential that a given threat will exploit vulnerabilities of an asset or group of assets and thereby cause harm to the organization
+>> <cite>ISO/IEC 27005</cite>
+
+- Before understanding risk, you need to understand the business you're in
+
+### Risk identification
+
+- Determine
+    - Asset value
+    - Threats
+    - Vulnerabilites
+- Document controls
+- Understand the consequences of risk events
+
+### Risk identification requirements
+
+- Assets
+- Threats
+- Vulnerabilities
+- Likelihood/probabilities
+- Impact/consequence
+    - Not all events will have the same impact
+
+### Risk assessment/analysis results
+
+- Prioritization
+- Recommended actions (response)
+- Determine risk owner
+- Generate risk assessment report
+- Update risk register
+
+### Key points
+
+- Risk management consists of saeveral activities that may happen concurrently and consecutively
+    - Establishing context seeks to understand the organization
+    - Risk assessment identifies and prioritizes risk
+    - IT risk is a subset of organizational risk
 
 ## Security Controls
 
