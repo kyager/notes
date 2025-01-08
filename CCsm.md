@@ -241,10 +241,10 @@ That could be exploited by a threat source
 
 #### Known vulnerabilities
 
-CVSS - Common vulnerability scoring system
-CWE - Common weakness and enumeration
-CIS Controls - Critical security controls
-Use of Standards - Payment card industry
+- CVSS - Common vulnerability scoring system
+- CWE - Common weakness and enumeration
+- CIS Controls - Critical security controls
+- Use of Standards - Payment card industry
 
 ## Security Controls
 
