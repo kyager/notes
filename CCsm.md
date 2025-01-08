@@ -165,6 +165,87 @@ Risk is defined as the probability of an event and it's consequence.
     - Risk assessment identifies and prioritizes risk
     - IT risk is a subset of organizational risk
 
+### Threat Modeling
+
+#### Threats
+
+Any circumstance or event with the potential to adversely impact:
+- Organization operations
+- Organizational assets
+- Individuals
+- Other organizations
+- The nation
+Through an information system via unauthorized access, destruction, disclosure, modification of information, and/or denial of service
+
+#### Threat source
+
+Element which alone, or in combination, has the potential to give rise to risk.
+
+The intent and method targeted at the intentional exploitation of a vulnerability or a situation and method that may accidentally exploit a vulnerability.
+
+#### Man-made threat sources/agents
+
+Hostile actions
+- Understand the motivation, capabilities, intent of the attacker
+- Know the techniques, tactics, and procedures used by the adversary
+
+Errors of omission or commission
+
+#### Threat sources
+
+Environmental
+- Natural events
+- Power failure
+- Telecommnunications failure
+- DNS failure
+
+Structural
+- Equipment
+- Software
+
+#### Thread modeling: attack vectors
+
+- Facility
+- Network
+- Hardware
+- User inputs
+- Administrator itnerfaces
+- Social engineering
+
+#### Key points
+
+Risk identification is a methodical, step-by-step process
+- Identify assets and their value
+- Perform threat modeling
+- Do vulnerability assessment
+- Determine likelihood and impact
+- Calculate risk level
+- Consider appropriate response to risk
+- Communicate results
+
+Risk assessment is the foundation of good IT security
+- Justifies controls
+- Informs management
+- Demonstrates/measures compliance
+
+The results of the risk assessment are the foundation of risk treatment or risk response.
+
+### Vulnerability assessment
+
+Vulnerability is defined as a weakness in:
+- An imformation system
+- System security procedures
+- Internal controls
+- Or implementation
+That could be exploited by a threat source
+
+#### Known vulnerabilities
+
+CVSS - Common vulnerability scoring system
+CWE - Common weakness and enumeration
+CIS Controls - Critical security controls
+Use of Standards - Payment card industry
+
 ## Security Controls
 
 
